@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.square{
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 0.25rem0;
+  display: grid;
+  place-content: center;
+
+}
+
+.square p{
+  text-align: center;
+
+}
+form{
+  width: 200px;
+}
+
+label{
+  position: absolute;
+  left: -99999px;
+}
+
